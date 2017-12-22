@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		792E66821FEDBA6B0030FFEE /* EnigmaticCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792E66811FEDBA6B0030FFEE /* EnigmaticCore.framework */; };
+		797DA5CE1FE2CD01001D7814 /* EnigmaticKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797DA5C41FE2CD00001D7814 /* EnigmaticKit.framework */; };
+		797DA5D31FE2CD01001D7814 /* EnigmaKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797DA5D21FE2CD01001D7814 /* EnigmaKitTests.swift */; };
+		797DA5D51FE2CD01001D7814 /* EnigmaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 797DA5C71FE2CD00001D7814 /* EnigmaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		798C013F1FE2CDCD0080FB1E /* Release-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 798C013C1FE2CDCD0080FB1E /* Release-Framework.xcconfig */; };
+		798C01401FE2CDCD0080FB1E /* Debug-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 798C013D1FE2CDCD0080FB1E /* Debug-Framework.xcconfig */; };
+		798C01411FE2CDCD0080FB1E /* EnigmaticKit.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 798C013E1FE2CDCD0080FB1E /* EnigmaticKit.xcconfig */; };
+		798C01511FE2CEED0080FB1E /* EnigmaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C01461FE2CE700080FB1E /* EnigmaController.swift */; };
+		798C01521FE2CEED0080FB1E /* EnigmaController+PasswordViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C01471FE2CE700080FB1E /* EnigmaController+PasswordViewControllerDelegate.swift */; };
+		798C01531FE2CEED0080FB1E /* EnigmaController.DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C01481FE2CE700080FB1E /* EnigmaController.DisplayMode.swift */; };
+		798C01541FE2CEF40080FB1E /* PasswordWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C014C1FE2CE700080FB1E /* PasswordWindowController.swift */; };
+		798C01551FE2CEF40080FB1E /* PasswordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C014D1FE2CE700080FB1E /* PasswordSheet.swift */; };
+		798C01561FE2CEF40080FB1E /* PasswordPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C014E1FE2CE700080FB1E /* PasswordPanel.swift */; };
+		798C01571FE2CEF40080FB1E /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C014F1FE2CE700080FB1E /* PasswordViewController.swift */; };
+		798C01581FE2CEFA0080FB1E /* PasswordWindowController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798C014B1FE2CE700080FB1E /* PasswordWindowController.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		797DA5CF1FE2CD01001D7814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 797DA5BB1FE2CD00001D7814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797DA5C31FE2CD00001D7814;
+			remoteInfo = EnigmaKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		792E66811FEDBA6B0030FFEE /* EnigmaticCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EnigmaticCore.framework; path = ../../Carthage/Build/Mac/EnigmaticCore.framework; sourceTree = "<group>"; };
+		797DA5C41FE2CD00001D7814 /* EnigmaticKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnigmaticKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		797DA5C71FE2CD00001D7814 /* EnigmaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnigmaKit.h; sourceTree = "<group>"; };
+		797DA5C81FE2CD00001D7814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797DA5CD1FE2CD01001D7814 /* EnigmaticKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnigmaticKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		797DA5D21FE2CD01001D7814 /* EnigmaKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaKitTests.swift; sourceTree = "<group>"; };
+		797DA5D41FE2CD01001D7814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798C013C1FE2CDCD0080FB1E /* Release-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Release-Framework.xcconfig"; sourceTree = "<group>"; };
+		798C013D1FE2CDCD0080FB1E /* Debug-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Debug-Framework.xcconfig"; sourceTree = "<group>"; };
+		798C013E1FE2CDCD0080FB1E /* EnigmaticKit.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = EnigmaticKit.xcconfig; sourceTree = "<group>"; };
+		798C01461FE2CE700080FB1E /* EnigmaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaController.swift; sourceTree = "<group>"; };
+		798C01471FE2CE700080FB1E /* EnigmaController+PasswordViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnigmaController+PasswordViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		798C01481FE2CE700080FB1E /* EnigmaController.DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaController.DisplayMode.swift; sourceTree = "<group>"; };
+		798C014A1FE2CE700080FB1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PasswordWindowController.storyboard; sourceTree = "<group>"; };
+		798C014C1FE2CE700080FB1E /* PasswordWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordWindowController.swift; sourceTree = "<group>"; };
+		798C014D1FE2CE700080FB1E /* PasswordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSheet.swift; sourceTree = "<group>"; };
+		798C014E1FE2CE700080FB1E /* PasswordPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPanel.swift; sourceTree = "<group>"; };
+		798C014F1FE2CE700080FB1E /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		797DA5C01FE2CD00001D7814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792E66821FEDBA6B0030FFEE /* EnigmaticCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797DA5CA1FE2CD01001D7814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797DA5CE1FE2CD01001D7814 /* EnigmaticKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		797DA5BA1FE2CD00001D7814 = {
+			isa = PBXGroup;
+			children = (
+				798C013B1FE2CDCD0080FB1E /* Configuration */,
+				797DA5C61FE2CD00001D7814 /* Source */,
+				797DA5D11FE2CD01001D7814 /* EnigmaKitTests */,
+				797DA5C51FE2CD00001D7814 /* Products */,
+				79B02DEC1FE2D08B00DEA35F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		797DA5C51FE2CD00001D7814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				797DA5C41FE2CD00001D7814 /* EnigmaticKit.framework */,
+				797DA5CD1FE2CD01001D7814 /* EnigmaticKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		797DA5C61FE2CD00001D7814 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				797DA5C71FE2CD00001D7814 /* EnigmaKit.h */,
+				797DA5C81FE2CD00001D7814 /* Info.plist */,
+				798C01491FE2CE700080FB1E /* EnigmaController */,
+				798C01501FE2CE700080FB1E /* Password Window */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		797DA5D11FE2CD01001D7814 /* EnigmaKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				797DA5D21FE2CD01001D7814 /* EnigmaKitTests.swift */,
+				797DA5D41FE2CD01001D7814 /* Info.plist */,
+			);
+			path = EnigmaKitTests;
+			sourceTree = "<group>";
+		};
+		798C013B1FE2CDCD0080FB1E /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				798C013C1FE2CDCD0080FB1E /* Release-Framework.xcconfig */,
+				798C013D1FE2CDCD0080FB1E /* Debug-Framework.xcconfig */,
+				798C013E1FE2CDCD0080FB1E /* EnigmaticKit.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		798C01491FE2CE700080FB1E /* EnigmaController */ = {
+			isa = PBXGroup;
+			children = (
+				798C01461FE2CE700080FB1E /* EnigmaController.swift */,
+				798C01471FE2CE700080FB1E /* EnigmaController+PasswordViewControllerDelegate.swift */,
+				798C01481FE2CE700080FB1E /* EnigmaController.DisplayMode.swift */,
+			);
+			path = EnigmaController;
+			sourceTree = "<group>";
+		};
+		798C01501FE2CE700080FB1E /* Password Window */ = {
+			isa = PBXGroup;
+			children = (
+				798C014B1FE2CE700080FB1E /* PasswordWindowController.storyboard */,
+				798C014C1FE2CE700080FB1E /* PasswordWindowController.swift */,
+				798C014D1FE2CE700080FB1E /* PasswordSheet.swift */,
+				798C014E1FE2CE700080FB1E /* PasswordPanel.swift */,
+				798C014F1FE2CE700080FB1E /* PasswordViewController.swift */,
+			);
+			path = "Password Window";
+			sourceTree = "<group>";
+		};
+		79B02DEC1FE2D08B00DEA35F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				792E66811FEDBA6B0030FFEE /* EnigmaticCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		797DA5C11FE2CD00001D7814 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797DA5D51FE2CD01001D7814 /* EnigmaKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		797DA5C31FE2CD00001D7814 /* EnigmaticKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797DA5D81FE2CD01001D7814 /* Build configuration list for PBXNativeTarget "EnigmaticKit" */;
+			buildPhases = (
+				797DA5BF1FE2CD00001D7814 /* Sources */,
+				797DA5C01FE2CD00001D7814 /* Frameworks */,
+				797DA5C11FE2CD00001D7814 /* Headers */,
+				797DA5C21FE2CD00001D7814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnigmaticKit;
+			productName = EnigmaKit;
+			productReference = 797DA5C41FE2CD00001D7814 /* EnigmaticKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		797DA5CC1FE2CD01001D7814 /* EnigmaticKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797DA5DB1FE2CD01001D7814 /* Build configuration list for PBXNativeTarget "EnigmaticKitTests" */;
+			buildPhases = (
+				797DA5C91FE2CD01001D7814 /* Sources */,
+				797DA5CA1FE2CD01001D7814 /* Frameworks */,
+				797DA5CB1FE2CD01001D7814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				797DA5D01FE2CD01001D7814 /* PBXTargetDependency */,
+			);
+			name = EnigmaticKitTests;
+			productName = EnigmaKitTests;
+			productReference = 797DA5CD1FE2CD01001D7814 /* EnigmaticKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		797DA5BB1FE2CD00001D7814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Richard Nees";
+				TargetAttributes = {
+					797DA5C31FE2CD00001D7814 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					797DA5CC1FE2CD01001D7814 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 797DA5BE1FE2CD00001D7814 /* Build configuration list for PBXProject "EnigmaticKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 797DA5BA1FE2CD00001D7814;
+			productRefGroup = 797DA5C51FE2CD00001D7814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				797DA5C31FE2CD00001D7814 /* EnigmaticKit */,
+				797DA5CC1FE2CD01001D7814 /* EnigmaticKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797DA5C21FE2CD00001D7814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798C01411FE2CDCD0080FB1E /* EnigmaticKit.xcconfig in Resources */,
+				798C01581FE2CEFA0080FB1E /* PasswordWindowController.storyboard in Resources */,
+				798C013F1FE2CDCD0080FB1E /* Release-Framework.xcconfig in Resources */,
+				798C01401FE2CDCD0080FB1E /* Debug-Framework.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797DA5CB1FE2CD01001D7814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		797DA5BF1FE2CD00001D7814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798C01541FE2CEF40080FB1E /* PasswordWindowController.swift in Sources */,
+				798C01531FE2CEED0080FB1E /* EnigmaController.DisplayMode.swift in Sources */,
+				798C01511FE2CEED0080FB1E /* EnigmaController.swift in Sources */,
+				798C01571FE2CEF40080FB1E /* PasswordViewController.swift in Sources */,
+				798C01551FE2CEF40080FB1E /* PasswordSheet.swift in Sources */,
+				798C01521FE2CEED0080FB1E /* EnigmaController+PasswordViewControllerDelegate.swift in Sources */,
+				798C01561FE2CEF40080FB1E /* PasswordPanel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797DA5C91FE2CD01001D7814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797DA5D31FE2CD01001D7814 /* EnigmaKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		797DA5D01FE2CD01001D7814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 797DA5C31FE2CD00001D7814 /* EnigmaticKit */;
+			targetProxy = 797DA5CF1FE2CD01001D7814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		798C014B1FE2CE700080FB1E /* PasswordWindowController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798C014A1FE2CE700080FB1E /* Base */,
+			);
+			name = PasswordWindowController.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		797DA5D61FE2CD01001D7814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798C013D1FE2CDCD0080FB1E /* Debug-Framework.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		797DA5D71FE2CD01001D7814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798C013D1FE2CDCD0080FB1E /* Debug-Framework.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		797DA5D91FE2CD01001D7814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798C013E1FE2CDCD0080FB1E /* EnigmaticKit.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		797DA5DA1FE2CD01001D7814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798C013E1FE2CDCD0080FB1E /* EnigmaticKit.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		797DA5DC1FE2CD01001D7814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EnigmaticKitTests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.richardnees.framework.EnigmaKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		797DA5DD1FE2CD01001D7814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EnigmaticKitTests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.richardnees.framework.EnigmaKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		797DA5BE1FE2CD00001D7814 /* Build configuration list for PBXProject "EnigmaticKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797DA5D61FE2CD01001D7814 /* Debug */,
+				797DA5D71FE2CD01001D7814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797DA5D81FE2CD01001D7814 /* Build configuration list for PBXNativeTarget "EnigmaticKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797DA5D91FE2CD01001D7814 /* Debug */,
+				797DA5DA1FE2CD01001D7814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797DA5DB1FE2CD01001D7814 /* Build configuration list for PBXNativeTarget "EnigmaticKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797DA5DC1FE2CD01001D7814 /* Debug */,
+				797DA5DD1FE2CD01001D7814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 797DA5BB1FE2CD00001D7814 /* Project object */;
+}
