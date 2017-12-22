@@ -11,9 +11,6 @@
 		797DA5CE1FE2CD01001D7814 /* EnigmaticKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797DA5C41FE2CD00001D7814 /* EnigmaticKit.framework */; };
 		797DA5D31FE2CD01001D7814 /* EnigmaKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797DA5D21FE2CD01001D7814 /* EnigmaKitTests.swift */; };
 		797DA5D51FE2CD01001D7814 /* EnigmaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 797DA5C71FE2CD00001D7814 /* EnigmaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		798C013F1FE2CDCD0080FB1E /* Release-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 798C013C1FE2CDCD0080FB1E /* Release-Framework.xcconfig */; };
-		798C01401FE2CDCD0080FB1E /* Debug-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 798C013D1FE2CDCD0080FB1E /* Debug-Framework.xcconfig */; };
-		798C01411FE2CDCD0080FB1E /* EnigmaticKit.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 798C013E1FE2CDCD0080FB1E /* EnigmaticKit.xcconfig */; };
 		798C01511FE2CEED0080FB1E /* EnigmaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C01461FE2CE700080FB1E /* EnigmaController.swift */; };
 		798C01521FE2CEED0080FB1E /* EnigmaController+PasswordViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C01471FE2CE700080FB1E /* EnigmaController+PasswordViewControllerDelegate.swift */; };
 		798C01531FE2CEED0080FB1E /* EnigmaController.DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C01481FE2CE700080FB1E /* EnigmaController.DisplayMode.swift */; };
@@ -248,10 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				798C01411FE2CDCD0080FB1E /* EnigmaticKit.xcconfig in Resources */,
 				798C01581FE2CEFA0080FB1E /* PasswordWindowController.storyboard in Resources */,
-				798C013F1FE2CDCD0080FB1E /* Release-Framework.xcconfig in Resources */,
-				798C01401FE2CDCD0080FB1E /* Debug-Framework.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
