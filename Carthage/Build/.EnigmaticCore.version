@@ -1,9 +1,9 @@
 {
-  "commitish" : "0.0.1",
+  "commitish" : "0.0.2",
   "Mac" : [
     {
       "name" : "EnigmaticCore",
-      "hash" : "30d2e86ec86aaaf417b0c25da1e1563656136bd0fa1d47a1294e7ea15569be47"
+      "hash" : "1316422c41929f75f23ddfef297cc72b496b000a49040ae131befce41d62be40"
     }
   ]
 }
