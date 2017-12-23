@@ -4,6 +4,7 @@ import EnigmaticCore
 extension EnigmaController: PasswordViewControllerDelegate {
     public var autofillPassword: String? {
         let keychainMatchOperation = EnigmaKeychainMatchPasswordOperation()
+        keychainMatchOperation.account = keychainAccount
         keychainMatchOperation.data = encryptedData
         queue.addOperation(keychainMatchOperation)
         queue.waitUntilAllOperationsAreFinished()

@@ -11,9 +11,11 @@ public class EnigmaController: NSObject {
     public var encryptedData: Data?
     
     public var transform: Enigma.Transform = .encrypt
-    public var displayMode: EnigmaController.DisplayMode = .regular
     
+    public var displayMode: EnigmaController.DisplayMode = .regular
     public var displaysDescription: Bool = false
+    
+    public var keychainAccount: String?
     public var allowsKeychainAccess: Bool = false
     public var shouldAddToKeychain: Bool = false
     public var autoDecryptUsingKeychain: Bool = false
@@ -130,6 +132,7 @@ public class EnigmaController: NSObject {
 
         if self.shouldAddToKeychain {
             let keychainSaveOperation = EnigmaKeychainSavePasswordOperation()
+            keychainSaveOperation.account = keychainAccount
             keychainSaveOperation.password = password
             keychainSaveOperation.data = encryptedData
             queue.addOperation(keychainSaveOperation)
@@ -164,6 +167,7 @@ public class EnigmaController: NSObject {
 
         if self.shouldAddToKeychain {
             let keychainSaveOperation = EnigmaKeychainSavePasswordOperation()
+            keychainSaveOperation.account = keychainAccount
             keychainSaveOperation.password = password
             keychainSaveOperation.data = encryptedData
             queue.addOperation(keychainSaveOperation)
