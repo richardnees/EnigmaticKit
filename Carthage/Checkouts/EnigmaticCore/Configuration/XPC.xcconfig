@@ -1,3 +1,0 @@
-#include "Shared.xcconfig"
-
-LD_RUNPATH_SEARCH_PATHS = $(inherited) @loader_path/../../../../Frameworks

@@ -1,5 +1,0 @@
-#include "Shared.xcconfig"
-
-INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Bundles
-
-WRAPPER_EXTENSION = plugin
