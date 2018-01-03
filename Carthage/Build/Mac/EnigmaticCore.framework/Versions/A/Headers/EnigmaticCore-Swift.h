@@ -172,7 +172,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_OBJC(Msg) SWIFT_DEPRECATED_MSG(Msg)
 #endif
 #if __has_feature(modules)
-@import ObjectiveC;
 @import Foundation;
 #endif
 
@@ -185,20 +184,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wnullability"
 
 SWIFT_MODULE_NAMESPACE_PUSH("EnigmaticCore")
-
-SWIFT_CLASS("_TtC13EnigmaticCore6Enigma")
-@interface Enigma : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-
-
-
-
-
-
 
 SWIFT_CLASS("_TtC13EnigmaticCore24EnigmaTransformOperation")
 @interface EnigmaTransformOperation : NSOperation
