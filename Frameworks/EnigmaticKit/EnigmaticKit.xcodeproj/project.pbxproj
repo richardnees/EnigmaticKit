@@ -19,6 +19,9 @@
 		798C01561FE2CEF40080FB1E /* PasswordPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C014E1FE2CE700080FB1E /* PasswordPanel.swift */; };
 		798C01571FE2CEF40080FB1E /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C014F1FE2CE700080FB1E /* PasswordViewController.swift */; };
 		798C01581FE2CEFA0080FB1E /* PasswordWindowController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798C014B1FE2CE700080FB1E /* PasswordWindowController.storyboard */; };
+		79DDFC791FFE7B80001F9B64 /* EnigmaDocumentPluginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DDFC761FFE7B80001F9B64 /* EnigmaDocumentPluginController.swift */; };
+		79DDFC7A1FFE7B80001F9B64 /* EnigmaDocumentPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DDFC771FFE7B80001F9B64 /* EnigmaDocumentPlugin.swift */; };
+		79DDFC7B1FFE7B80001F9B64 /* EnigmaDocumentPluginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DDFC781FFE7B80001F9B64 /* EnigmaDocumentPluginProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		798C014D1FE2CE700080FB1E /* PasswordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSheet.swift; sourceTree = "<group>"; };
 		798C014E1FE2CE700080FB1E /* PasswordPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPanel.swift; sourceTree = "<group>"; };
 		798C014F1FE2CE700080FB1E /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		79DDFC761FFE7B80001F9B64 /* EnigmaDocumentPluginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnigmaDocumentPluginController.swift; sourceTree = "<group>"; };
+		79DDFC771FFE7B80001F9B64 /* EnigmaDocumentPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnigmaDocumentPlugin.swift; sourceTree = "<group>"; };
+		79DDFC781FFE7B80001F9B64 /* EnigmaDocumentPluginProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnigmaDocumentPluginProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 			children = (
 				797DA5C71FE2CD00001D7814 /* EnigmaKit.h */,
 				797DA5C81FE2CD00001D7814 /* Info.plist */,
+				79DDFC751FFE7B80001F9B64 /* EnigmaDocumentPlugin */,
 				798C01491FE2CE700080FB1E /* EnigmaController */,
 				798C01501FE2CE700080FB1E /* Password Window */,
 			);
@@ -150,6 +157,16 @@
 				792E66811FEDBA6B0030FFEE /* EnigmaticCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79DDFC751FFE7B80001F9B64 /* EnigmaDocumentPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				79DDFC761FFE7B80001F9B64 /* EnigmaDocumentPluginController.swift */,
+				79DDFC771FFE7B80001F9B64 /* EnigmaDocumentPlugin.swift */,
+				79DDFC781FFE7B80001F9B64 /* EnigmaDocumentPluginProtocol.swift */,
+			);
+			path = EnigmaDocumentPlugin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +283,11 @@
 				798C01541FE2CEF40080FB1E /* PasswordWindowController.swift in Sources */,
 				798C01531FE2CEED0080FB1E /* EnigmaController.DisplayMode.swift in Sources */,
 				798C01511FE2CEED0080FB1E /* EnigmaController.swift in Sources */,
+				79DDFC791FFE7B80001F9B64 /* EnigmaDocumentPluginController.swift in Sources */,
 				798C01571FE2CEF40080FB1E /* PasswordViewController.swift in Sources */,
+				79DDFC7B1FFE7B80001F9B64 /* EnigmaDocumentPluginProtocol.swift in Sources */,
 				798C01551FE2CEF40080FB1E /* PasswordSheet.swift in Sources */,
+				79DDFC7A1FFE7B80001F9B64 /* EnigmaDocumentPlugin.swift in Sources */,
 				798C01521FE2CEED0080FB1E /* EnigmaController+PasswordViewControllerDelegate.swift in Sources */,
 				798C01561FE2CEF40080FB1E /* PasswordPanel.swift in Sources */,
 			);
